@@ -1,0 +1,33 @@
+body {
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0px auto;
+}
+
+.container {
+    max-width: 1030px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 309px;
+    height: 261px;
+    margin: 37px 29px;
+
+}
+
+.card div {
+    background-image: url("../img/shopping.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+}
